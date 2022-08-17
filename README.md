@@ -1,4 +1,4 @@
-# React Native ToDo -App
+# React Native ToDo App
 
 React Native öğrenmeye başlamak için challange atar gibi 2-3 günde ortaya koyduğumuz basit sevimli bir App, geliştirelecek ve eklenecek bir çok özellikler var. Zamanb oldukça artık yeni özellikleri ekleriz.
 
