@@ -7,7 +7,7 @@ const initialState = {
 }
 
 export default (state = initialState, { type, payload }) => {
-    console.log("doingReducer içi payload:", payload)
+    //console.log("doingReducer içi payload:", payload)
   switch (type) {
 
   case ADD_TO_DONING:

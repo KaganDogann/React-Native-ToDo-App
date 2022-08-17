@@ -8,7 +8,7 @@ const initialState = {
 let taskID = 7;
 
 export default (state = initialState, { type, payload }) => {
-  console.log("toDo reducer içi payload:", payload)
+  //console.log("toDo reducer içi payload:", payload)
   switch (type) {
 
     case ADD_TO_TODO:

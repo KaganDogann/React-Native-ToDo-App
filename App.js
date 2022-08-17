@@ -6,8 +6,8 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import type {Node} from 'react';
+import React, { useEffect } from 'react';
+import type { Node } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -28,11 +28,13 @@ import {
 import Routes from './Routes/Routes';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import 'react-native-gesture-handler';
+import auth from '@react-native-firebase/auth';
 
 
 
 const App: () => Node = () => {
-  
+
+
   return (
     <Routes></Routes>
   );

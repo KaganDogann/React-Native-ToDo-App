@@ -89,7 +89,7 @@ const styles = StyleSheet.create(
       padding:10
     },
     daysText: {
-      color: '#2196f3',
+      color: 'white',
       fontSize: 18,
       paddingBottom: 0,
       padding:10
